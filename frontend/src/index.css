@@ -1,0 +1,97 @@
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.main-content{
+  margin-left: 18%;
+}
+.font-helvetica{
+  font-family:Helvetica;
+  font-weight:400;
+  font-size:15px;
+}
+.nav li{
+  margin-top: 8px;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+}
+.nav-item a.active{
+  text-decoration:none;
+  color:rgb(162, 172, 180);
+}
+
+.fit-content{
+  width: fit-content;
+}
+.w-10{
+  width: 10%;
+}
+.w-80{
+  width: 80%;
+}
+.w-90{
+  width: 90%;
+}
+.decorate-none{
+  text-decoration:none;
+}
+.shadow-hover:hover{
+  box-shadow: 4px 4px rgba(80, 101, 121, 0.863);
+
+}
+.dark-bg{
+  background-color:rgba(2, 16, 29, 0.863);
+}
+.light-bg{
+  background-color:rgba(245, 245, 255, 0.959)
+}
+.medium-bg{
+  background-color:rgba(80, 101, 121, 0.863);
+}
+.dark-text{
+  color:rgba(2, 16, 29, 0.863);
+}
+.sales-img{
+  width: 50vw;
+  height: auto;
+  opacity: 0.8;
+}
+
+.dropdown-menu {
+  background-color: rgba(2, 16, 29, 0.863);
+}
+
+
+.dropdown-menu .dropdown-item {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: gray;
+}
+
+.dropdown-menu .dropdown-item.active {
+  background-color: rgba(80, 101, 121, 0.863);
+}
+
+.nav-link.dropdown-toggle {
+  color: #fff;
+}
+
+.nav-link.dropdown-toggle:hover {
+  color: rgba(245, 245, 255, 0.959)
+}
+
+.nav-link.dropdown-toggle.active {
+  color: rgba(245, 245, 255, 0.959)
+}
+
+.company-logo{
+  height: 350px;
+}
+
+.login-bg{
+  background-image: linear-gradient(to right, rgba(2, 16, 29, 0.863),rgba(4, 24, 43, 0.863) );
+}
